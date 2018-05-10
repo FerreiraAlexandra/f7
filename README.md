@@ -2,7 +2,7 @@
 
 This project ( Student Management System) demonstrate mainly 
 * Angular Http functionality
-* call a Node.js RESTful service.  2
+* call a Node.js RESTful service.  
 
 
 ## Angular Topics
