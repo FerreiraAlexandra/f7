@@ -1,0 +1,53 @@
+{
+    "name": "StudentManagementSystem",
+    "version": "1.0.0",
+    "scripts": {
+        "tsc": "tsc",
+        "tsc:w": "tsc -w",
+        "server": "node server.js",
+        "start": "concurrently \"npm run tsc:w\" \"nodemon server.js\""
+    },
+    "dependencies": {
+        "@angular/animations": "^5.2.10",
+        "@angular/common": "^5.2.10",
+        "@angular/compiler": "^5.2.10",
+        "@angular/core": "^5.2.10",
+        "@angular/forms": "^5.2.10",
+        "@angular/http": "^5.2.10",
+        "@angular/platform-browser": "^5.2.10",
+        "@angular/platform-browser-dynamic": "^5.2.10",
+        "@angular/router": "^5.2.10",
+        "body-parser": "^1.18.2",
+        "cookie-parser": "^1.4.3",
+        "core-js": "^2.5.6",
+        "csurf": "^1.9.0",
+        "errorhandler": "^1.5.0",
+        "express": "^4.16.3",
+        "express-handlebars": "^3.0.0",
+        "express-session": "^1.15.6",
+        "handlebars": "^4.0.11",
+        "handlebars-helpers": "^0.10.0",
+        "handlebars-layouts": "^3.1.4",
+        "hbs": "~4.0.1",
+        "mongoose": "^4.13.12",
+        "morgan": "~1.9.0",
+        "rxjs": "^5.5.10",
+        "serve-favicon": "~2.4.5",
+        "systemjs": "^0.20.19",
+        "zone.js": "^0.8.26"
+    },
+    "devDependencies": {
+        "@types/node": "8.0.53",
+        "concurrently": "3.5.1",
+        "del": "^3.0.0",
+        "gulp": "^3.9.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-csso": "^3.0.1",
+        "gulp-plumber": "^1.2.0",
+        "gulp-sass": "^3.2.1",
+        "gulp-uglify": "^3.0.0",
+        "lite-server": "2.3.0",
+        "run-sequence": "^2.2.1",
+        "typescript": "2.6.1"
+    }
+}
